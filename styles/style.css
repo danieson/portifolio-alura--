@@ -162,3 +162,50 @@ body{
     background-color: var(--botao-azul);
     color:#00030C;
 }
+
+@media screen and (max-width: 800px) {
+    .container{
+        display:block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin:0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivo__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+
+    .rodape__texto{
+        margin: 0;
+        font-size: 12;
+        text-align: center;
+    }
+    
+    .dispositivos__titulo{
+        font-size: 16px;
+    }
+    .rodape{
+        padding: 0;
+    }
+
+    
+}
